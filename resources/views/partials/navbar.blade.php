@@ -23,12 +23,12 @@
                 </div>
                 <div class="flex items-center">
                     <form action="" class="px-4 py-3 lg:py-2">
-                        <input class="w-96 lg:rounded-full px-4 py-2 lg:w-64 border-none shadow focus:ring-2 focus:ring-blue-700 focus:outline-none" type="text" placeholder="Search" autocomplete="off">
+                        <input class="w-32 lg:rounded-full px-5 py-2 lg:w-64 border-none shadow focus:ring-2 focus:ring-blue-700 focus:outline-none" type="text" placeholder="Search" autocomplete="off">
                     </form>
                 </div>
                 <div class="flex flex-col lg:flex-row lg:items-center lg:px-4">
-                    <a href="#" class="block px-4 py-3 lg:py-2 text-white hover:text-slate-200 lg:border lg:rounded-full lg:mx-2 font-semibold focus:outline-none focus:text-slate-200">Sign in</a>
-                    <a href="#" class="block px-4 py-3 lg:py-2 text-white hover:text-slate-200 lg:border lg:rounded-full font-semibold focus:outline-none focus:text-slate-200">Sign up</a>
+                    <a href="#" id="signin_button" class="block px-4 py-3 lg:py-2 text-white hover:text-slate-200 lg:border lg:rounded-full lg:mx-2 font-semibold focus:outline-none focus:text-slate-200">Sign in</a>
+                    <a href="#" id="signup_button" class="block px-4 py-3 lg:py-2 text-white hover:text-slate-200 lg:border lg:rounded-full font-semibold focus:outline-none focus:text-slate-200">Sign up</a>
                 </div>
             </div>
         </div>
