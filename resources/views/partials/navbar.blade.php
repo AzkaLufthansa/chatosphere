@@ -22,8 +22,9 @@
                     <a href="#" class="block px-4 py-3 lg:py-5 text-white hover:text-slate-200 font-semibold focus:outline-none focus:text-slate-200">Chatosphere</a>
                 </div>
                 <div class="flex items-center">
-                    <form action="" class="px-4 py-3 lg:py-2">
-                        <input class="w-32 lg:rounded-full px-5 py-2 lg:w-64 border-none shadow focus:ring-2 focus:ring-blue-700 focus:outline-none" type="text" placeholder="Search" autocomplete="off">
+                    <form action="" class="px-4 py-3 lg:py-2 relative w-full">
+                        <i class="fa-solid fa-magnifying-glass absolute top-6 lg:top-5 left-[31px]"></i>
+                        <input class="w-full rounded-full px-10 py-2 lg:w-64 border-none shadow focus:ring-2 focus:ring-blue-700 focus:outline-none" type="text" placeholder="Search" autocomplete="off">
                     </form>
                 </div>
                 <div class="flex flex-col lg:flex-row lg:items-center lg:px-4">
