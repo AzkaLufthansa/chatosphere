@@ -2,7 +2,7 @@
 
 @section('container')
     <div class="flex flex-col p-4 md:flex-row gap-0 md:gap-3">
-        <div class="border-2 w-full md:w-80 lg:w-2/5 p-4 bg-white border-primary rounded-xl mb-4 md:mb-0 shrink-0 shadow">
+        <div class="border-2 w-full md:w-80 lg:w-2/5 p-4 bg-white border-primary rounded-xl mb-4 md:mb-0 shrink-0 shadow break-words">
             <div class="">
                 <div class="w-24 h-24 rounded-full border mx-auto border-black mb-2"></div>
                 <div class="text-center font-semibold text-lg">
@@ -11,18 +11,18 @@
             </div>
             <hr class="my-6 border-black">
             <div>
-                <ul class="flex flex-col gap-2 text-center md:text-left">
-                    <span class="text-slate-700 font-semibold text-xs -mb-2">Email</span>
+                <ul class="flex flex-col gap-3 text-center md:text-left">
+                    <span class="text-slate-700 font-semibold text-xs -mb-3">Email</span>
                     <li>azkalufthansa3@gmail.com</li>
-                    <span class="text-slate-700 font-semibold text-xs -mb-2">Number</span>
+                    <span class="text-slate-700 font-semibold text-xs -mb-3">Number</span>
                     <li>082120205224</li>
-                    <span class="text-slate-700 font-semibold text-xs -mb-2">About</span>
+                    <span class="text-slate-700 font-semibold text-xs -mb-3">About</span>
                     <li>Sedang ngoding</li>
-                    <span class="text-slate-700 font-semibold text-xs -mb-2">Birthday</span>
+                    <span class="text-slate-700 font-semibold text-xs -mb-3">Birthday</span>
                     <li>1-01-2001</li>
-                    <span class="text-slate-700 font-semibold text-xs -mb-2 uppperca">Topic Created</span>
+                    <span class="text-slate-700 font-semibold text-xs -mb-3 uppperca">Topic Created</span>
                     <li>40</li>
-                    <span class="text-slate-700 font-semibold text-xs -mb-2 uppperca">Comment Posted</span>
+                    <span class="text-slate-700 font-semibold text-xs -mb-3 uppperca">Comment Posted</span>
                     <li>99</li>
                 </ul>
             </div>

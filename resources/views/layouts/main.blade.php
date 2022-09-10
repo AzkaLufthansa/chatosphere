@@ -14,11 +14,13 @@
 
     @yield('container')
 
+    @include('auth_popup')
+
     <script>
         // untuk navbar responsive
         const navdropping = document.getElementById('collapse');
         const menu_x = document.getElementById('menu_x')
-    
+        
         function collapse() {
             if(navdropping.classList.contains('hidden')) {
                 navdropping.classList.remove('hidden');
@@ -29,27 +31,37 @@
             }
         }
 
-        // untuk popup login
-        document.getElementById('signin_button').addEventListener('click', function() {
+         // untuk popup sigin dan signup
+         document.getElementById('signin_button').addEventListener('click', function() {
+            document.querySelector('.signup').classList.add('hidden');
             document.getElementById('popup').style.display = 'flex';
             document.getElementById('body').classList.add('overflow-hidden');
         })
 
         document.getElementById('signup_button').addEventListener('click', function() {
+            document.querySelector('.signin').classList.add('hidden');
+            document.querySelector('.signup').classList.remove('hidden');
             document.getElementById('popup').style.display = 'flex';
             document.getElementById('body').classList.add('overflow-hidden');
         })
 
+        document.getElementById('signup').addEventListener('click', function() {
+            document.querySelector('.signin').classList.add('hidden');
+            document.querySelector('.signup').classList.remove('hidden');
+        })
+
+        document.getElementById('signin').addEventListener('click', function() {
+            document.querySelector('.signup').classList.add('hidden');
+            document.querySelector('.signin').classList.remove('hidden');
+        })
+
         document.getElementById('close').addEventListener('click', function() {
+            document.querySelector('.signup, .signin').classList.remove('hidden');
             document.getElementById('popup').style.display = 'none';
             document.getElementById('body').classList.remove('overflow-hidden');
         })
 
-        $('.signup').hide();
-
-        $('#signin, #signup').on('click', function() {
-            $('.signin, .signup').toggle();
-        })
+        @yield('footer-script')
     </script>
 </body>
 </html>

@@ -24,3 +24,9 @@ Route::get('/profile', function() {
         'title' => 'Profile'
     ]);
 });
+
+Route::get('/join', function() {
+    return view('join', [
+        'title' => 'Join'
+    ]);
+});
